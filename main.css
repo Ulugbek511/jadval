@@ -1,0 +1,49 @@
+table, th, td {
+  border-bottom: grey;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+}
+
+th {
+  padding: 20px;
+}
+
+table {
+  border-bottom: grey;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+tbody tr:last-child {
+  border: none;
+}
+
+tr:hover {
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(180, 172, 172);
+}
+
+thead {
+  background-color: green;
+}
+
+tr td:nth-child(2) {
+  width: 370px;
+}
+
+.bmw {
+  background-color: white;
+}
+
+table {
+  margin: 0px auto;
+}/*# sourceMappingURL=main.css.map */
